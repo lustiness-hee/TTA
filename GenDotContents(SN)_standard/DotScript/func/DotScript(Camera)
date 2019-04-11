@@ -1,0 +1,19 @@
+digraph xx { 
+	 "Camera" [shape=BOX, label="Camera"];	
+	 "Camera" [shape=BOX, label="Camera"];	
+	 "~Camera" [shape=BOX, label="~Camera"];	
+	 "getPosition" [shape=BOX, label="getPosition"];	
+	 "setPosition" [shape=BOX, label="setPosition"];	
+	 "getRight" [shape=BOX, label="getRight"];	
+	 "getUp" [shape=BOX, label="getUp"];	
+	 "getLook" [shape=BOX, label="getLook"];	
+	 "walk" [shape=BOX, label="walk"];	
+	 "strafe" [shape=BOX, label="strafe"];	
+	 "fly" [shape=BOX, label="fly"];	
+	 "pitch" [shape=BOX, label="pitch"];	
+	 "yaw" [shape=BOX, label="yaw"];	
+	 "roll" [shape=BOX, label="roll"];	
+	 "getViewMatrix" [shape=BOX, label="getViewMatrix"];	
+	 "setCameraType" [shape=BOX, label="setCameraType"];	
+	 "Camera"->"setPosition" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 2+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 4.0"];
+} 

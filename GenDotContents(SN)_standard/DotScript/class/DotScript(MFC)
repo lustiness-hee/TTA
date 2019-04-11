@@ -1,0 +1,15 @@
+digraph xx { 
+	 "CAboutDlg" [shape=BOX, label="CAboutDlg"];	
+	 "CBoxCreateDlg" [shape=BOX, label="CBoxCreateDlg"];	
+	 "CCtrlSetup" [shape=BOX, label="CCtrlSetup"];	
+	 "CExToolBar" [shape=BOX, label="CExToolBar"];	
+	 "CMainFrame" [shape=BOX, label="CMainFrame"];	
+	 "CServerCreation" [shape=BOX, label="CServerCreation"];	
+	 "CSimultationApp" [shape=BOX, label="CSimultationApp"];	
+	 "CSimultationDoc" [shape=BOX, label="CSimultationDoc"];	
+	 "CSimultationView" [shape=BOX, label="CSimultationView"];	
+	 "CMainFrame"->"CExToolBar" [shape=BOX, label="(1 * 1) * 3+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 3.0"];
+	 "CMainFrame"->"CSimultationView" [shape=BOX, label="(1 * 1) * 6+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 8.0"];
+	 "CSimultationApp"->"CSimultationView" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 3.0"];
+	 "CSimultationView"->"CMainFrame" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 3+ ( 3 * 1 ) * 1+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 9.0"];
+} 

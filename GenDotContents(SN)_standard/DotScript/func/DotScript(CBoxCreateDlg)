@@ -1,0 +1,5 @@
+digraph xx { 
+	 "CBoxCreateDlg" [shape=BOX, label="CBoxCreateDlg"];	
+	 "~CBoxCreateDlg" [shape=BOX, label="~CBoxCreateDlg"];	
+	 "DoDataExchange" [shape=BOX, label="DoDataExchange"];	
+} 

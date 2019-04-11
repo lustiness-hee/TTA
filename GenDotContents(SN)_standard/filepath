@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cycle_list>
+ <cycle id="1" />
+ <coupling coupling_score="7185" />
+ <coding_rule coding_rule_score="100" />
+</cycle_list>

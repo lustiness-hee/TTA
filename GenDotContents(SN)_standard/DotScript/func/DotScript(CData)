@@ -1,0 +1,5 @@
+digraph xx { 
+	 "CData" [shape=BOX, label="CData"];	
+	 "~CData" [shape=BOX, label="~CData"];	
+	 "Serialize" [shape=BOX, label="Serialize"];	
+} 

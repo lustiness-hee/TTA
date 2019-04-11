@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body onload=test()>
+<script>
+function test()
+{
+  var fso;
+  fso = new ActiveXObject("scripting.FileSystemObject"); 
+  var srt = fso.GetFolder("E:\\ajaxplorer-core-3.2.4\\ajaxplorer-core-3.2.4\\SWV\\team\\team1\\document\\SWStructureAnalysis");
+  var fc = new Enumerator(srt.files);
+  for (; !fc.atEnd(); fc.moveNext())
+    document.write(fc.item().name + "<br>\n");
+}
+</script>
+</body>
+</html>

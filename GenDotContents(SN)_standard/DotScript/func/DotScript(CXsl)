@@ -1,0 +1,10 @@
+digraph xx { 
+	 "CXsl" [shape=BOX, label="CXsl"];	
+	 "~CXsl" [shape=BOX, label="~CXsl"];	
+	 "Open" [shape=BOX, label="Open"];	
+	 "Close" [shape=BOX, label="Close"];	
+	 "AddParameter" [shape=BOX, label="AddParameter"];	
+	 "TransformToFile" [shape=BOX, label="TransformToFile"];	
+	 "Open"->"Close" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+	 "~CXsl"->"Close" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+} 

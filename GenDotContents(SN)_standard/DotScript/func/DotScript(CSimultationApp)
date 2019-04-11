@@ -1,0 +1,6 @@
+digraph xx { 
+	 "CSimultationApp" [shape=BOX, label="CSimultationApp"];	
+	 "InitInstance" [shape=BOX, label="InitInstance"];	
+	 "OnAppAbout" [shape=BOX, label="OnAppAbout"];	
+	 "OnIdle" [shape=BOX, label="OnIdle"];	
+} 

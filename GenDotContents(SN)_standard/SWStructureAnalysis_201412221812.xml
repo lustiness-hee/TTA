@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sw_structure_analysis.xsl"?><list>
+<info>
+<date>201412221812</date>
+<department>Software Visualization Team 1</department>
+<modify>testclass의 example 메소드 생성&#13;
+</modify>
+<standard>Style : 233
+ Warning : 64
+ Performance : 2</standard>
+<quality>1511</quality>
+<etc>&#13;
+기타&#13;
+</etc>
+</info>
+<image>
+<classdiagram>http://203.249.87.143:13000/jenkins/userContent/SWV1/classdiagram(201412221812).png</classdiagram>
+<callgraph>http://203.249.87.143:13000/jenkins/userContent/SWV1/Architecture(class)(201412221812).png</callgraph>
+</image>
+</list>

@@ -1,0 +1,17 @@
+digraph xx { 
+	 "CMainFrame" [shape=BOX, label="CMainFrame"];	
+	 "~CMainFrame" [shape=BOX, label="~CMainFrame"];	
+	 "DockControlBarLeftOf" [shape=BOX, label="DockControlBarLeftOf"];	
+	 "GetPortNum" [shape=BOX, label="GetPortNum"];	
+	 "DisableComPort" [shape=BOX, label="DisableComPort"];	
+	 "EnableComPort" [shape=BOX, label="EnableComPort"];	
+	 "OnCreate" [shape=BOX, label="OnCreate"];	
+	 "PreCreateWindow" [shape=BOX, label="PreCreateWindow"];	
+	 "AssertValid" [shape=BOX, label="AssertValid"];	
+	 "Dump" [shape=BOX, label="Dump"];	
+	 "SettingCurrentDirectory" [shape=BOX, label="SettingCurrentDirectory"];	
+	 "OnFileEnvOpen" [shape=BOX, label="OnFileEnvOpen"];	
+	 "OnFileEnvClose" [shape=BOX, label="OnFileEnvClose"];	
+	 "OnCreate"->"DockControlBarLeftOf" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 2+ ( 6 *1.7 ) * 0 = 16.0"];
+	 "OnCreate"->"SettingCurrentDirectory" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 2+ ( 6 *1.7 ) * 0 = 16.0"];
+} 

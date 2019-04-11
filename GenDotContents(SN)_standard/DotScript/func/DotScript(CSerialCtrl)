@@ -1,0 +1,10 @@
+digraph xx { 
+	 "CSerialCtrl" [shape=BOX, label="CSerialCtrl"];	
+	 "~CSerialCtrl" [shape=BOX, label="~CSerialCtrl"];	
+	 "CloseConnect" [shape=BOX, label="CloseConnect"];	
+	 "ConnectPort" [shape=BOX, label="ConnectPort"];	
+	 "WriteABuffer" [shape=BOX, label="WriteABuffer"];	
+	 "ReadABuffer" [shape=BOX, label="ReadABuffer"];	
+	 "ConnectPort"->"CloseConnect" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+	 "~CSerialCtrl"->"CloseConnect" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+} 

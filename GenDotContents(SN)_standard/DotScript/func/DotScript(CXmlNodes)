@@ -1,0 +1,17 @@
+digraph xx { 
+	 "CXmlNodes" [shape=BOX, label="CXmlNodes"];	
+	 "CXmlNodes" [shape=BOX, label="CXmlNodes"];	
+	 "CXmlNodes" [shape=BOX, label="CXmlNodes"];	
+	 "CXmlNodes" [shape=BOX, label="CXmlNodes"];	
+	 "~CXmlNodes" [shape=BOX, label="~CXmlNodes"];	
+	 "Release" [shape=BOX, label="Release"];	
+	 "operator =" [shape=BOX, label="operator ="];	
+	 "operator =" [shape=BOX, label="operator ="];	
+	 "GetCount" [shape=BOX, label="GetCount"];	
+	 "GetItem" [shape=BOX, label="GetItem"];	
+	 "operator []" [shape=BOX, label="operator []"];	
+	 "GetItem" [shape=BOX, label="GetItem"];	
+	 "operator []" [shape=BOX, label="operator []"];	
+	 "operator []"->"GetItem" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 2+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 6.0"];
+	 "~CXmlNodes"->"Release" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+} 

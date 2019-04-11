@@ -1,0 +1,303 @@
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:108]: (style) The scope of the variable 'middle' can be reduced.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:613]: (style) The scope of the variable 'middle' can be reduced.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:613]: (style) The scope of the variable 'comp' can be reduced.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:1262]: (warning) Member variable 'CLineNumberStatic::m_topmargin' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:319]: (error) Mismatching allocation and deallocation: buffer
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:329]: (error) Mismatching allocation and deallocation: buffer
+[C:\src\RobotModelingSimulation\Src\MFC\ControlAIModelDlg.cpp:349]: (style) Consecutive return, break, continue, goto or throw statements are unnecessary.
+[C:\src\RobotModelingSimulation\Src\MFC\ControlAIModelDlg.cpp:228]: (style) Variable 'index' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:327]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:329]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:340]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:342]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:351]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:353]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:362]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:364]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:374]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:376]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:385]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:387]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:394]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:396]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:403]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:405]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:412]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:414]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:431]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:433]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:460]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:464]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:483]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:504]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:508]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:509]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:518]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\FileView.cpp:520]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:815]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:919]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:550] -> [C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:551]: (performance) Variable 'nNum' is reassigned a value before the old one has been used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:604]: (style) Variable 'encoder_count' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:725]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:818]: (style) Variable 'old_speed_left' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:819]: (style) Variable 'old_speed_right' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:820]: (style) Variable 'old_buzzer' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:821]: (style) Variable 'old_led_front' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:822]: (style) Variable 'old_led_rear' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:823]: (style) Variable 'encode_count' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:866]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:929]: (style) Variable 'old_speed_left' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:930]: (style) Variable 'old_speed_right' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:931]: (style) Variable 'old_buzzer' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:932]: (style) Variable 'old_led_front' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:933]: (style) Variable 'old_led_rear' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1044]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1065]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1084]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1102]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1121]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1138]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1184]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:1204]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\PropertiesWnd.cpp:542]: (style) Variable 'pos' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\PropertiesWnd.cpp:564]: (style) Variable 'pos' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\PropertiesWnd.cpp:586]: (style) Variable 'pos' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1091]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'float'.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1129]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'float'.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1171]: (warning) %f in format string (no. 1) requires 'double' but the argument type is 'BOOL {aka int}'.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:599] -> [C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:600]: (performance) Variable 'globalVariable' is reassigned a value before the old one has been used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1895]: (style) The scope of the variable 'left_speed' can be reduced.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1896]: (style) The scope of the variable 'right_speed' can be reduced.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:589]: (style) Variable 'valCount' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1552]: (style) Variable 'num' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1562]: (style) Variable 'num' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1572]: (style) Variable 'num' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1905]: (style) Variable 'left_speed' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:1906]: (style) Variable 'right_speed' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:16]: (warning) Member variable 'CRobotScript::m_timerSubID' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:16]: (warning) Member variable 'CRobotScript::m_internalIndex' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:76]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:78]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:80]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:82]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:84]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:86]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:88]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:90]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:92]: (warning) Format format string requires 0 parameters but 1 is given.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:133]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:14]: (warning) Member variable 'CSensorAnalyzer::m_graph_count' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\SensorAnalyzer.cpp:14]: (warning) Member variable 'CSensorAnalyzer::m_dyn_graph_id' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:63]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:64]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:66]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:71]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:81]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\ViewTree.cpp:82]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\VirtualCamera.cpp:46]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\MFC\VirtualCamera.h:17]: (style) Unused private function: 'CVirtualCamera::Rotate'
+[C:\src\RobotModelingSimulation\Src\MFC\VirtualCamera.h:3]: (style) 'class CVirtualCamera' does not have a copy constructor which is recommended since the class contains a pointer to allocated memory.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:82]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:104]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:139]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:105]: (style) The scope of the variable 'i' can be reduced.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:14]: (warning) Member variable 'CODEEngine::m_bThreadRun' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:14]: (warning) Member variable 'CODEEngine::m_width' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:14]: (warning) Member variable 'CODEEngine::m_height' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:95]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:123]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:140]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:215]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:156]: (style) Variable 'bThum' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeControlBoxDlg.cpp:16]: (warning) Member variable 'COdeControlBoxDlg::m_nMax' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeCylinder.cpp:58]: (style) Variable 'rot' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeJointObject.cpp:15]: (warning) Member variable 'COdeJointObject::m_pODEStartObject' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeJointObject.cpp:15]: (warning) Member variable 'COdeJointObject::m_pODEEndObject' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeJointObject.cpp:15]: (warning) Member variable 'COdeJointObject::m_uType' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:15]: (warning) Member variable 'COdeObject::bTracking' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:15]: (warning) Member variable 'COdeObject::m_view' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:15]: (warning) Member variable 'COdeObject::m_uType' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:15]: (warning) Member variable 'COdeObject::m_colorRGB' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:15]: (warning) Member variable 'COdeObject::m_roatation' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRectangle.cpp:60]: (style) Variable 'rot' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:60]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:75] -> [C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:75]: (style) Same expression on both sides of '&&'.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:67]: (style) Variable 'bi' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_infrared_rays' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_directionX' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_directionY' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_camera' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_rayDistance' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::m_meshCount' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:12]: (warning) Member variable 'COdeRoboCarBody::last_matrix_index' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarVision.cpp:12]: (warning) Member variable 'COdeRoboCarVision::m_camera' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarVision.cpp:12]: (warning) Member variable 'COdeRoboCarVision::m_meshCount' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarWheel.cpp:11]: (warning) Member variable 'COdeRoboCarWheel::m_meshCount' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarWheel.cpp:11]: (warning) Member variable 'COdeRoboCarWheel::last_matrix_index' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:340]: (style) Variable 'Pos' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:341]: (style) Variable 'Rot' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:369]: (style) Variable 'mat_emission' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_num' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_n1' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_n2' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_n3' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_n4' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_meshCount' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSignalCode.cpp:6]: (warning) Member variable 'COdeSignalCode::m_pTrimesh' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeSphere.cpp:59]: (style) Variable 'rot' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeUltraSensor.cpp:64]: (style) Variable 'rot' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:85]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:309]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:310]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:311]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:33]: (warning) Member variable 'CRobotModelingEditView::m_mainFrame' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:33]: (warning) Member variable 'CRobotModelingEditView::m_nLine' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:342]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:343]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:366]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:370]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:330] -> [C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:333]: (warning) Possible null pointer dereference: pJointOb - otherwise it is redundant to check it against null.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:317]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:337]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:393]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:396]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:397]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:400]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:402]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:406]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:408]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:409]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:441]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:529]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:538]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:553]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:190]: (style) Variable 'bRet' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:431]: (style) Variable 'bRet' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:130]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:262]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:309]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:336]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:445]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:491]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:641]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:679]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:684]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:811]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:850]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1113]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1124]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1150]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1164]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1213]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1233]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1317]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1323]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1361]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1381]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1393]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1426]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1445]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1462]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1480]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1497]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1794]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:729]: (style) The scope of the variable 'rgb' can be reduced.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:730]: (style) The scope of the variable 'weight' can be reduced.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:731]: (style) The scope of the variable 'pos' can be reduced.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:732]: (style) The scope of the variable 'side' can be reduced.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:733]: (style) The scope of the variable 'rot' can be reduced.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1371]: (style) Unused variable: pb
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1695]: (style) Variable 'bVal' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_width' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_height' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_bThreadRun' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_selectObjectNum' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_selectedObjectNum' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_nServerCount' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_oldPos' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:124]: (warning) Member variable 'CRobotModelingSimulationView::m_hThread' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:1701]: (warning) Logical conjunction always evaluates to false: theta > 18 && theta < -18.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation_i.c:52]: (style) struct or union member '_IID::x' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation_i.c:53]: (style) struct or union member '_IID::s1' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation_i.c:54]: (style) struct or union member '_IID::s2' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation_i.c:55]: (style) struct or union member '_IID::c' is never used.
+[C:\src\RobotModelingSimulation\Src\Server\CommClient.cpp:82]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\Server\CommClient.cpp:157]: (style) The scope of the variable 'received' can be reduced.
+[C:\src\RobotModelingSimulation\Src\Server\CommClient.cpp:12]: (warning) Member variable 'CCommClient::m_pThread' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\Server\CommClient.cpp:117]: (error) Mismatching allocation and deallocation: ch
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:17]: (style) C-style pointer casting
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:21]: (style) Variable 'old_speed_left' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:22]: (style) Variable 'old_speed_right' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:23]: (style) Variable 'old_buzzer' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:24]: (style) Variable 'old_led_front' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:25]: (style) Variable 'old_led_rear' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:133]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:149]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:165]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:181]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:197]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:214]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:243]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:270]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:288]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:362]: (style) Variable 'nByte' is assigned a value that is never used.
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:152]: (style) The scope of the variable 'dwError' can be reduced.
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:189]: (style) The scope of the variable 'dwError' can be reduced.
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:137]: (style) Unused variable: dwThreadID
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:193]: (style) Unused variable: bResult
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:5]: (warning) Member variable 'CSerialCtrl::m_hThreadWatchComm' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:5]: (warning) Member variable 'CSerialCtrl::m_bConnected' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\Server\Server.cpp:68]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'UINT {aka unsigned int}'.
+[C:\src\RobotModelingSimulation\Src\Server\SimulationServerConn.cpp:17]: (warning) Member variable 'CSimulationServerConn::m_charIP' is not initialized in the constructor.
+[C:\src\RobotModelingSimulation\Src\MFC\OutputWnd.cpp:90]: (style) The function 'AdjustHorzScroll' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:640]: (style) The function 'CaseSensitive' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\GUID.cpp:20]: (style) The function 'CompareGUID' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:182]: (style) The function 'DrawFrame' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\Queue.cpp:44]: (style) The function 'GetByte' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:584]: (style) The function 'GetDictionary' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\ScrollHelper.cpp:68]: (style) The function 'GetDisplaySize' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\ScrollHelper.cpp:78]: (style) The function 'GetPageSize' is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:277]: (style) The function 'GetRoboCAR_SensorsNew' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\VirtualCamera.cpp:25]: (style) The function 'GetTransformationMatrix' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:331]: (style) The function 'GetVariable' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\ControlAIModelDlg.cpp:107]: (style) The function 'InitToolbar' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\HopfieldNetwork.cpp:162]: (style) The function 'InitializeMatrix' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:129]: (style) The function 'InitializeSearchContent' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:669]: (style) The function 'Learn' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:674]: (style) The function 'LearnOnDblClick' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:679]: (style) The function 'ListAllWords' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:317]: (style) The function 'LoadCustomState' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:228]: (style) The function 'OnBeginPrinting' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationDoc.cpp:108]: (style) The function 'OnDrawThumbnail' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:233]: (style) The function 'OnEndPrinting' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:1305]: (style) The function 'OnPaint' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulationView.cpp:222]: (style) The function 'OnPreparePrinting' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditDoc.cpp:97]: (style) The function 'OnSaveDocument' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:917]: (style) The function 'PasingSerail' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:293]: (style) The function 'PreLoadState' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:701]: (style) The function 'PreSubclassWindow' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\HopfieldNetwork.cpp:203]: (style) The function 'PrintMatrixList' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarBody.cpp:49]: (style) The function 'ResetCameraData' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:578]: (style) The function 'ResetDictionary' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\VirtualCamera.cpp:128]: (style) The function 'Rotate' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingSimulation.cpp:321]: (style) The function 'SaveCustomState' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\ScrollHelper.cpp:83]: (style) The function 'ScrollToOrigin' is never used.
+[C:\src\RobotModelingSimulation\Src\Server\ComunicationModule.cpp:334]: (style) The function 'SendRoboCAR_MotorNew' is never used.
+[C:\src\RobotModelingSimulation\Src\Server\Server.cpp:140]: (style) The function 'SendUser' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\Data.cpp:24]: (style) The function 'Serialize' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\GUID.cpp:48]: (style) The function 'SetGUIDStringToID' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeRoboCarVision.cpp:84]: (style) The function 'SetJointHingePostion' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:1240]: (style) The function 'SetLineNumberRange' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:1186]: (style) The function 'SetMarginBackgroundColor' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:1155]: (style) The function 'SetMarginForegroundColor' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:661]: (style) The function 'ShowListBox' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:72]: (style) The function 'SimLoop' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:171]: (style) The function 'StartGraphics' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\ODEEngine.cpp:176]: (style) The function 'StopGraphics' is never used.
+[C:\src\RobotModelingSimulation\Src\Server\SerialCtrl.cpp:258]: (style) The function 'ThreadWatchComm' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:656]: (style) The function 'TrapEnter' is never used.
+[C:\src\RobotModelingSimulation\Src\RobotModel\RobotModelingEditView.cpp:289]: (style) The function 'UpdateNumberLabel' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\AutocomplectionCtrl.cpp:984]: (style) The function 'UseSystemColours' is never used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:319]: (style) The function 'VarKeySeperator' is never used.
+[C:\src\RobotModelingSimulation\Src\ODE\OdeObject.cpp:71]: (style) The function 'setCurrentTransform' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)

@@ -1,0 +1,4 @@
+digraph xx { 
+	 "CAboutDlg" [shape=BOX, label="CAboutDlg"];	
+	 "DoDataExchange" [shape=BOX, label="DoDataExchange"];	
+} 

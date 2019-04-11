@@ -1,0 +1,12 @@
+digraph xx { 
+	 "CServer" [shape=BOX, label="CServer"];	
+	 "~CServer" [shape=BOX, label="~CServer"];	
+	 "Init" [shape=BOX, label="Init"];	
+	 "OnAccept" [shape=BOX, label="OnAccept"];	
+	 "OnReceive" [shape=BOX, label="OnReceive"];	
+	 "SendUser" [shape=BOX, label="SendUser"];	
+	 "OnClose" [shape=BOX, label="OnClose"];	
+	 "OnConnect" [shape=BOX, label="OnConnect"];	
+	 "OnAccept"->"Init" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+	 "OnReceive"->"SendUser" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+} 

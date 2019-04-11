@@ -1,0 +1,8 @@
+digraph xx { 
+	 "CSimultationDoc" [shape=BOX, label="CSimultationDoc"];	
+	 "~CSimultationDoc" [shape=BOX, label="~CSimultationDoc"];	
+	 "OnNewDocument" [shape=BOX, label="OnNewDocument"];	
+	 "Serialize" [shape=BOX, label="Serialize"];	
+	 "AssertValid" [shape=BOX, label="AssertValid"];	
+	 "Dump" [shape=BOX, label="Dump"];	
+} 

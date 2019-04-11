@@ -1,0 +1,19 @@
+digraph xx { 
+	 "CCtrlSetup" [shape=BOX, label="CCtrlSetup"];	
+	 "~CCtrlSetup" [shape=BOX, label="~CCtrlSetup"];	
+	 "DoDataExchange" [shape=BOX, label="DoDataExchange"];	
+	 "OnBnClickedButton1" [shape=BOX, label="OnBnClickedButton1"];	
+	 "OnBnClickedButton2" [shape=BOX, label="OnBnClickedButton2"];	
+	 "OnBnClickedButton3" [shape=BOX, label="OnBnClickedButton3"];	
+	 "OnBnClickedButton4" [shape=BOX, label="OnBnClickedButton4"];	
+	 "OnBnClickedButton5" [shape=BOX, label="OnBnClickedButton5"];	
+	 "OnBnClickedButton6" [shape=BOX, label="OnBnClickedButton6"];	
+	 "OnBnClickedButton7" [shape=BOX, label="OnBnClickedButton7"];	
+	 "OnBnClickedButton8" [shape=BOX, label="OnBnClickedButton8"];	
+	 "OnBnClickedButton9" [shape=BOX, label="OnBnClickedButton9"];	
+	 "OnBnClickedButton10" [shape=BOX, label="OnBnClickedButton10"];	
+	 "OnBnClickedButton11" [shape=BOX, label="OnBnClickedButton11"];	
+	 "OnBnClickedButton12" [shape=BOX, label="OnBnClickedButton12"];	
+	 "OnBnClickedButton13" [shape=BOX, label="OnBnClickedButton13"];	
+	 "OnBnClickedButton14" [shape=BOX, label="OnBnClickedButton14"];	
+} 

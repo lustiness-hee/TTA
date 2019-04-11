@@ -1,0 +1,4 @@
+digraph xx { 
+	 "CWheelRobot" [shape=BOX, label="CWheelRobot"];	
+	 "~CWheelRobot" [shape=BOX, label="~CWheelRobot"];	
+} 

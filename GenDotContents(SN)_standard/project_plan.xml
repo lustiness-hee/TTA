@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="project_plan.xsl"?><list>
+<summary>
+<title>Software Visualization Team 1</title>
+<pm_env>손현승</pm_env>
+<pm_man>손현승</pm_man>
+<date>201412221812</date>
+<version>v0.0001&#13;
+</version>
+<name>본 프로젝트의 명칭은 "Software Visualization Team 1"라 한다.</name>
+<period>2015-06-01 ~ 2016-06-01</period>
+<goal>메타모델을 통한 다양한 언어를 하나의 도구를 통해 가시화 할수 있는 중간모델을 통한 독립형 가시화 체계연구&#13;
+</goal>
+<effect>다양한언어를 하나의 도구로서 가시화 할 수 있다.&#13;
+</effect>
+</summary>
+<area>
+<process_specs>
+<process_spec name="&#13;&#10;1. 메타모델 설계">
+<process title="&#13;&#10;언어분석 "> 각 언어 구성 요소 분석</process>
+<process title="&#13;&#10;메타모델 "> 메타모델 설계&#13;
+</process>
+</process_spec>
+<process_spec name="&#13;&#10;2.시스템 구축">
+<process title="&#13;&#10;DB설계 "> 모듈분석을 위한 DB설계</process>
+<process title="&#13;&#10;툴체인 구성 "> 가시화 도구를 위한 툴체인 구성&#13;
+</process>
+</process_spec>
+</process_specs>
+</area>
+<hardware_info>http://203.249.87.143:13500/redmine/attachments/download/20/%ED%83%80%EA%B2%9F.png</hardware_info>
+<software_info>http://203.249.87.143:13500/redmine/attachments/download/19/%ED%88%B4%EC%B2%B4%EC%9D%B8.png</software_info>
+<organization_info>http://203.249.87.143:13500/redmine/attachments/download/65/%EC%A1%B0%EC%A7%81%EB%8F%84.png</organization_info>
+<roles>
+<role position="&#13;&#10;손현승(관리자) "> 프로젝트팀을 관리한다.</role>
+<role position="&#13;&#10;강건희(개발자-중) "> 프로그램을 개발한다.&#13;
+</role>
+</roles>
+<man_month_info>
+<mm_header>
+<mm_header_option>구분</mm_header_option>
+<mm_header_option>2015-6</mm_header_option>
+<mm_header_option>2015-7</mm_header_option>
+<mm_header_option>2015-8</mm_header_option>
+<mm_header_option>2015-9</mm_header_option>
+<mm_header_option>2015-10</mm_header_option>
+<mm_header_option>2015-11</mm_header_option>
+<mm_header_option>2015-12</mm_header_option>
+<mm_header_option>2016-1</mm_header_option>
+<mm_header_option>2016-2</mm_header_option>
+<mm_header_option>2016-3</mm_header_option>
+<mm_header_option>2016-4</mm_header_option>
+<mm_header_option>2016-5</mm_header_option>
+<mm_header_option>2016-6</mm_header_option>
+<mm_header_option>Total</mm_header_option>
+</mm_header>
+<mm_data>
+<mm_data_option>&#13;
+손현승(관리자) </mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>0.03</mm_data_option>
+<mm_data_option>12.03</mm_data_option>
+</mm_data>
+<mm_data>
+<mm_data_option>&#13;
+강건희(개발자-중) </mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>1.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>0.00</mm_data_option>
+<mm_data_option>7.00</mm_data_option>
+</mm_data>
+</man_month_info>
+<schedule_info>
+<si_header>
+<si_header_option>2015-6</si_header_option>
+<si_header_option>2015-7</si_header_option>
+<si_header_option>2015-8</si_header_option>
+<si_header_option>2015-9</si_header_option>
+<si_header_option>2015-10</si_header_option>
+<si_header_option>2015-11</si_header_option>
+<si_header_option>2015-12</si_header_option>
+<si_header_option>2016-1</si_header_option>
+<si_header_option>2016-2</si_header_option>
+<si_header_option>2016-3</si_header_option>
+<si_header_option>2016-4</si_header_option>
+<si_header_option>2016-5</si_header_option>
+<si_header_option>2016-6</si_header_option>
+</si_header>
+<si_data action="프로젝트 관리계획" depth="계획">
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+</si_data>
+<si_data action="분석 테스트" depth="분석">
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+</si_data>
+<si_data action="설계 테스트" depth="설계">
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+</si_data>
+<si_data action="구현테스트" depth="구현">
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+</si_data>
+<si_data action="시험테스트" depth="시험">
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+</si_data>
+<si_data action="종료테스트" depth="종료">
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>X</si_data_option>
+<si_data_option>O</si_data_option>
+<si_data_option>O</si_data_option>
+</si_data>
+</schedule_info>
+<output_docs>
+<output_doc depth="&#13;&#10;요구사항분석 " doc_name="요구사항분석서 " etc="--" output_date="2015-08-01 "/>
+<output_doc depth="&#13;&#10;구현 " doc_name="소스코드 명세서 " etc=" --&#13;&#10;" output_date="2016-01-01 "/>
+</output_docs>
+<output_checks>
+<output_check name="&#13;&#10;검수 책임자">- 프로젝트 관리팀의 인수책임자는 당 제안사의 프로젝트 관리자와...&#13;
+- 검수책임자는 산출물의 인수(승인)에 대해 책임을 지는 사람으로...</output_check>
+<output_check name="&#13;&#10;산출물의 검토"> - 프로젝트 관리팀의 검수 책임자는 각 문서 산출물을 접수한 후...&#13;
+- 프로젝트 관리팀의 인수 책임자는 계획과 차이 나는 부분에 대한... &#13;
+</output_check>
+</output_checks>
+<project_report_plans>
+<project_report_plan date="- 프로젝트 작업 범위의 이해&#13;&#10;- 프로젝트 계획의 합의 " human_list="고객측 PM, 프로젝트 PM" type="&#13;&#10;착수보고 ">착수 후 2주 이내</project_report_plan>
+<project_report_plan date="- 관리/업무/정보&#13;&#10;- 금주 진척 형황 " human_list="고객측 PM, 프로젝트 PM&#13;&#10;" type="&#13;&#10;주간보고 ">고객 PM과 개발사 측의 합의 하에 주 1회 </project_report_plan>
+</project_report_plans>
+<educations>
+<education organ="&#13;&#10;관리자 "> -교육자 선정, 일정조정</education>
+<education organ="&#13;&#10;교육담당 ">  - 메타모델 교육 일정 지원&#13;
+</education>
+</educations>
+<tech_transfer>&#13;
+기술지원은 공짜로 합니다.&#13;
+</tech_transfer>
+</list>

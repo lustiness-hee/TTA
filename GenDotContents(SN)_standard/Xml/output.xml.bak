@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cycle_list>
+	<cycle>
+		<no>1</no>
+		<coupling>2284</coupling>
+		<coding_rule>133</coding_rule>
+		<file_name />
+		<style />
+		<warning />
+		<performance />
+		<totl_line />
+	</cycle>
+
+</cycle_list>

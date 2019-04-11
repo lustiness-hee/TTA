@@ -1,0 +1,2 @@
+[C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:550] -> [C:\src\RobotModelingSimulation\Src\MFC\MainFrm.cpp:551]: (performance) Variable 'nNum' is reassigned a value before the old one has been used.
+[C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:599] -> [C:\src\RobotModelingSimulation\Src\MFC\RobotScript.cpp:600]: (performance) Variable 'globalVariable' is reassigned a value before the old one has been used.

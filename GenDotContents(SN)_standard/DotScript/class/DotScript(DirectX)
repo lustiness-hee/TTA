@@ -1,0 +1,4 @@
+digraph xx { 
+	 "CGround" [shape=BOX, label="CGround"];	
+	 "Camera" [shape=BOX, label="Camera"];	
+} 

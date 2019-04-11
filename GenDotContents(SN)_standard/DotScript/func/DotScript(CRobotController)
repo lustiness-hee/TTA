@@ -1,0 +1,14 @@
+digraph xx { 
+	 "CRobotController" [shape=BOX, label="CRobotController"];	
+	 "~CRobotController" [shape=BOX, label="~CRobotController"];	
+	 "DoDataExchange" [shape=BOX, label="DoDataExchange"];	
+	 "FileLoad" [shape=BOX, label="FileLoad"];	
+	 "InitButtonPosition" [shape=BOX, label="InitButtonPosition"];	
+	 "OnInitDialog" [shape=BOX, label="OnInitDialog"];	
+	 "OnLButtonDown" [shape=BOX, label="OnLButtonDown"];	
+	 "OnLButtonUp" [shape=BOX, label="OnLButtonUp"];	
+	 "OnTimer" [shape=BOX, label="OnTimer"];	
+	 "OnPaint" [shape=BOX, label="OnPaint"];	
+	 "OnInitDialog"->"FileLoad" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+	 "OnInitDialog"->"InitButtonPosition" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+} 

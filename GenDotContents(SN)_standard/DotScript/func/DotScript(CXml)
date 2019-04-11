@@ -1,0 +1,34 @@
+digraph xx { 
+	 "CXml" [shape=BOX, label="CXml"];	
+	 "~CXml" [shape=BOX, label="~CXml"];	
+	 "IsFileExist" [shape=BOX, label="IsFileExist"];	
+	 "CreateInstance" [shape=BOX, label="CreateInstance"];	
+	 "Open" [shape=BOX, label="Open"];	
+	 "Create" [shape=BOX, label="Create"];	
+	 "LoadXml" [shape=BOX, label="LoadXml"];	
+	 "Close" [shape=BOX, label="Close"];	
+	 "GetXmlFile" [shape=BOX, label="GetXmlFile"];	
+	 "CreateNode" [shape=BOX, label="CreateNode"];	
+	 "AddSelectionNamespace" [shape=BOX, label="AddSelectionNamespace"];	
+	 "GetRoot" [shape=BOX, label="GetRoot"];	
+	 "Save" [shape=BOX, label="Save"];	
+	 "SaveWithFormatted" [shape=BOX, label="SaveWithFormatted"];	
+	 "SaveStreamToFile" [shape=BOX, label="SaveStreamToFile"];	
+	 "SelectSingleNode" [shape=BOX, label="SelectSingleNode"];	
+	 "SelectNodes" [shape=BOX, label="SelectNodes"];	
+	 "Base64Encode" [shape=BOX, label="Base64Encode"];	
+	 "Base64Decode" [shape=BOX, label="Base64Decode"];	
+	 "GetVersion" [shape=BOX, label="GetVersion"];	
+	 "Create"->"CreateInstance" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 1+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 4.0"];
+	 "Create"->"CreateNode" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 2+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 4.0"];
+	 "CreateInstance"->"Close" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+	 "LoadXml"->"CreateInstance" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 1+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 4.0"];
+	 "Open"->"CreateInstance" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 1+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 4.0"];
+	 "Open"->"IsFileExist" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 1+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 5.0"];
+	 "SaveWithFormatted"->"CreateInstance" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 8+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 26.0" ,color = red];
+	 "SelectNodes"->"GetRoot" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 2+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 8.0"];
+	 "SelectNodes"->"SelectNodes" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+	 "SelectSingleNode"->"GetRoot" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 2+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 8.0"];
+	 "SelectSingleNode"->"SelectSingleNode" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+	 "~CXml"->"Close" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+} 

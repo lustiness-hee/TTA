@@ -1,0 +1,12 @@
+digraph xx { 
+	 "CXml" [shape=BOX, label="CXml"];	
+	 "CXmlNode" [shape=BOX, label="CXmlNode"];	
+	 "CXmlNodes" [shape=BOX, label="CXmlNodes"];	
+	 "CXsl" [shape=BOX, label="CXsl"];	
+	 "CXml"->"" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 2+ ( 3 * 1 ) * 8+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 28.0" ,color = 'red'];
+	 "CXml"->"CXmlNode" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 2+ ( 3 * 1 ) * 2+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 12.0"];
+	 "CXml"->"CXsl" [shape=BOX, label="(1 * 1) * 2+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 2.0"];
+	 "CXmlNodes"->"CXmlNode" [shape=BOX, label="(1 * 1) * 1+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 0+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 1.0"];
+	 "CXsl"->"" [shape=BOX, label="(1 * 1) * 0+ ( 2 * 1 ) * 1+ ( 3 * 1 ) * 2+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 8.0"];
+	 "CXsl"->"CXml" [shape=BOX, label="(1 * 1) * 4+ ( 2 * 1 ) * 0+ ( 3 * 1 ) * 6+ ( 4 * 1.25 ) * 0+ ( 5 * 1.4 ) * 0+ ( 6 *1.7 ) * 0 = 22.0" ,color = 'red'];
+} 

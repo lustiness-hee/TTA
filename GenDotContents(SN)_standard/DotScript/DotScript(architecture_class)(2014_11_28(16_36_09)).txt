@@ -1,0 +1,29 @@
+digraph xx { 
+ 	 subgraph clusterODE{ 
+	 label = "[ODE]"; 
+	color = blue; 
+	 fontsize = 40; 
+	 fontcolor = blue; 
+	 "CODEEngine" [shape=BOX,label="CODEEngine(16,192) "] "COdeControlBoxDlg" [shape=BOX,  label="COdeControlBoxDlg(10,211) "] "COdeCylinder" [shape=BOX,  label="COdeCylinder(4,59) "] "COdeJointFixed" [shape=BOX,  label="COdeJointFixed(5,35) "] "COdeJointHinge" [shape=BOX,  label="COdeJointHinge(5,47) "] "COdeJointObject" [shape=BOX,  label="COdeJointObject(18,34) "] "COdeObject" [shape=BOX, color = red,style = bold,fontcolor = red, label="COdeObject(31,67,0) "] "COdeRectangle" [shape=BOX,  label="COdeRectangle(4,61) "] "COdeRoboCarBody" [shape=BOX,  label="COdeRoboCarBody(12,441) "] "COdeRoboCarTrafficNetwork" [shape=BOX,  label="COdeRoboCarTrafficNetwork(5,211) "] "COdeRoboCarVision" [shape=BOX,  label="COdeRoboCarVision(12,371) "] "COdeRoboCarWheel" [shape=BOX,  label="COdeRoboCarWheel(6,162) "] "COdeSignalCode" [shape=BOX,  label="COdeSignalCode(9,477) "] "COdeSphere" [shape=BOX,  label="COdeSphere(4,59) "] "COdeUltraSensor" [shape=BOX,  label="COdeUltraSensor(4,63) "] "_tagMyTrimesh" [shape=BOX, label="_tagMyTrimesh(0,0) "];	
+	}
+	 subgraph clusterRobotModel{ 
+	 label = "[RobotModel]"; 
+	color = blue; 
+	 fontsize = 40; 
+	 fontcolor = blue; 
+	 "CAboutDlg" [shape=BOX,label="CAboutDlg(2,5) "] "CRobotModelingEditDoc" [shape=BOX,  label="CRobotModelingEditDoc(8,64) "] "CRobotModelingEditView" [shape=BOX,  label="CRobotModelingEditView(20,225) "] "CRobotModelingSimulationApp" [shape=BOX,  label="CRobotModelingSimulationApp(11,258) "] "CRobotModelingSimulationDoc" [shape=BOX, color = red,style = bold,fontcolor = red, label="CRobotModelingSimulationDoc(21,440,5) "] "CRobotModelingSimulationView" [shape=BOX, color = red,style = bold,fontcolor = red, label="CRobotModelingSimulationView(106,1438,20) "] "IRobotModelingSimulation" [shape=BOX,  label="IRobotModelingSimulation(0,0) "] "IRobotModelingSimulationVtbl" [shape=BOX,  label="IRobotModelingSimulationVtbl(0,0) "] "_IID" [shape=BOX, label="_IID(0,0) "];	
+	}
+	 subgraph clusterServer{ 
+	 label = "[Server]"; 
+	color = blue; 
+	 fontsize = 40; 
+	 fontcolor = blue; 
+	 "CCommClient" [shape=BOX,label="CCommClient(8,140) "] "CComunicationModule" [shape=BOX,  label="CComunicationModule(19,365) "] "CSerialCtrl" [shape=BOX,  label="CSerialCtrl(8,285) "] "CServer" [shape=BOX,  label="CServer(8,149) "] "CServerCreationDlg" [shape=BOX,  label="CServerCreationDlg(3,14) "] "CSignalCodeDlg" [shape=BOX,  label="CSignalCodeDlg(5,135) "] "CSimulationServerConn" [shape=BOX,  label="CSimulationServerConn(5,44) "] "_tagMotorStatus" [shape=BOX,  label="_tagMotorStatus(0,0) "] "tagPacket" [shape=BOX, label="tagPacket(0,0) "];	
+	}
+	 subgraph clusterMFC{ 
+	 label = "[MFC]"; 
+	color = blue; 
+	 fontsize = 40; 
+	 fontcolor = blue; 
+	 "CAutocomplectionCtrl" [shape=BOX,color = red,style = bold,fontcolor = red,label="CAutocomplectionCtrl(47,1090,21) "] "CCameraViewerDlg" [shape=BOX,  label="CCameraViewerDlg(6,162) "] "CChildFrame" [shape=BOX,  label="CChildFrame(5,19) "] "CClassToolBar" [shape=BOX,  label="CClassToolBar(2,3) "] "CClassView" [shape=BOX,  label="CClassView(18,232) "] "CClassViewMenuButton" [shape=BOX,  label="CClassViewMenuButton(2,13) "] "CControlAIModelDlg" [shape=BOX, color = red,style = bold,fontcolor = red, label="CControlAIModelDlg(23,374,5) "] "CCreateObjectDlg" [shape=BOX,  label="CCreateObjectDlg(12,116) "] "CData" [shape=BOX,  label="CData(3,24) "] "CFileView" [shape=BOX, color = red,style = bold,fontcolor = red, label="CFileView(33,406,6) "] "CFileViewToolBar" [shape=BOX,  label="CFileViewToolBar(2,3) "] "CGUID" [shape=BOX,  label="CGUID(9,88) "] "CHopfieldNetwork" [shape=BOX,  label="CHopfieldNetwork(15,186) "] "CJointSetDlg" [shape=BOX,  label="CJointSetDlg(3,11) "] "CLineNumberStatic" [shape=BOX,  label="CLineNumberStatic(10,229) "] "CMFCToolBarEx" [shape=BOX,  label="CMFCToolBarEx(3,22) "] "CMainFrame" [shape=BOX, color = red,style = bold,fontcolor = red, label="CMainFrame(49,1256,10) "] "COutputList" [shape=BOX,  label="COutputList(6,41) "] "COutputWnd" [shape=BOX,  label="COutputWnd(9,99) "] "CPropertiesToolBar" [shape=BOX,  label="CPropertiesToolBar(2,3) "] "CPropertiesWnd" [shape=BOX, color = red,style = bold,fontcolor = red, label="CPropertiesWnd(25,585,5) "] "CQueue" [shape=BOX,  label="CQueue(6,26) "] "CRobotScript" [shape=BOX, color = red,style = bold,fontcolor = red, label="CRobotScript(25,1998,9) "] "CScrollHelper" [shape=BOX,  label="CScrollHelper(16,328) "] "CSensorAnalyzer" [shape=BOX, color = red,style = bold,fontcolor = red, label="CSensorAnalyzer(22,265,4) "] "CSplashLogo" [shape=BOX,  label="CSplashLogo(6,41) "] "CViewTree" [shape=BOX,  label="CViewTree(5,48) "] "CVirtualCamera" [shape=BOX,  label="CVirtualCamera(8,160) "] "_tabBYTELR" [shape=BOX,  label="_tabBYTELR(0,0) "] "_tagFLOATLR" [shape=BOX,  label="_tagFLOATLR(0,0) "] "_tagINTLR" [shape=BOX,  label="_tagINTLR(0,0) "] "_tagINTXY" [shape=BOX,  label="_tagINTXY(0,0) "] "_tagRobotProtocal" [shape=BOX,  label="_tagRobotProtocal(0,0) "] "_tagVariable" [shape=BOX,  label="_tagVariable(0,0) "] "tagMatrix" [shape=BOX, label="tagMatrix(0,0) "];	
+	}

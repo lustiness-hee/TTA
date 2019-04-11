@@ -1,0 +1,5 @@
+digraph xx { 
+	 "CMotorObject" [shape=BOX, label="CMotorObject"];	
+	 "CRobotController" [shape=BOX, label="CRobotController"];	
+	 "CWheelRobot" [shape=BOX, label="CWheelRobot"];	
+} 

@@ -1,0 +1,1304 @@
+@startuml 
+ skinparam classAttributeIconSize 0 
+class CAboutDlg{
+int  CAboutDlg()
+void  DoDataExchange()
+}
+class CAutocomplectionCtrl{
+-compare : int (*)() 
+-comparen : int (*)() 
+-m_DisabledBgCol : COLORREF 
+-m_DisabledFgCol : COLORREF 
+-m_EnabledBgCol : COLORREF 
+-m_EnabledFgCol : COLORREF 
+-m_LineDelta : int 
+-m_autocompleted : BOOL 
+-m_bInForcedChange : BOOL 
+-m_bUseDisabledSystemColours : BOOL 
+-m_bUseEnabledSystemColours : BOOL 
+#m_enabled : BOOL 
+#m_font : CFont 
+-m_format : CString 
+-m_keywords : CStringArray 
+-m_learn : BOOL 
+-m_learnondblclick : BOOL 
+-m_line : CLineNumberStatic 
+-m_listallwords : BOOL 
+-m_listbox : CListBox 
+-m_maxval : int 
++m_pView : CRobotModelingEditView * 
+-m_showlistbox : BOOL 
+-m_trapenter : BOOL 
+-m_zero : CSize 
+BOOL  AddKeyword()
+void  Autocomplete()
+int  CAutocomplectionCtrl()
+int  CalcLineNumberWidth()
+void  CaseSensitive()
+BOOL  Create()
+void  Enable()
+BOOL  GetCurWord()
+void  GetDictionary()
+BOOL  IsKeyword()
+void  Learn()
+void  LearnOnDblClick()
+void  ListAllWords()
+void  OnChange()
+void  OnChar()
+void  OnEnable()
+void  OnKeyDown()
+void  OnKillFocus()
+void  OnLButtonDblClk()
+void  OnLButtonDown()
+LRESULT  OnLineScroll()
+void  OnListBoxChanged()
+BOOL  OnMouseWheel()
+void  OnRButtonDown()
+LRESULT  OnSelectLine()
+LRESULT  OnSetFont()
+LRESULT  OnSetText()
+void  OnSize()
+void  OnSysColorChange()
+void  OnVScroll()
+void  OnVscroll()
+void  PreSubclassWindow()
+BOOL  PreTranslateMessage()
+void  Prepare()
+inline void  RemoveListbox()
+void  ResetDictionary()
+void  SetLineNumberFormat()
+void  SetLineNumberRange()
+void  SetMarginBackgroundColor()
+void  SetMarginForegroundColor()
+void  SetWindowColour()
+void  ShowListBox()
+void  TrapEnter()
+void  UpdateTopAndBottom()
+void  UseSystemColours()
+CString  complete()
+int  ~CAutocomplectionCtrl()
+}
+class CCameraViewerDlg{
+-m_cam_rect : CRect 
++m_control_vision_name : CString 
++m_editVisionBody : CString 
++m_editVisionHead : CString 
++m_view : CRobotModelingSimulationView * 
++m_visionBodySliderCtrl : CSliderCtrl 
++m_visionTopSliderCtrl : CSliderCtrl 
+int  CCameraViewerDlg()
+void  DoDataExchange()
+void  OnHScroll()
+BOOL  OnInitDialog()
+void  OnTimer()
+int  ~CCameraViewerDlg()
+}
+class CChildFrame{
+void  AssertValid()
+int  CChildFrame()
+void  Dump()
+BOOL  PreCreateWindow()
+int  ~CChildFrame()
+}
+class CClassToolBar{
+virtual BOOL  AllowShowOnList()
+virtual void  OnUpdateCmdUI()
+}
+class CClassView{
+#m_ClassViewImages : CImageList 
+#m_nCurrSort : UINT 
+#m_wndClassView : CViewTree 
+#m_wndToolBar : CClassToolBar 
+void  AdjustLayout()
+int  CClassView()
+void  FillClassView()
+void  OnChangeVisualStyle()
+void  OnClassAddMemberFunction()
+void  OnClassAddMemberVariable()
+void  OnClassDefinition()
+void  OnClassProperties()
+void  OnContextMenu()
+int  OnCreate()
+void  OnNewFolder()
+void  OnPaint()
+void  OnSetFocus()
+void  OnSize()
+void  OnSort()
+void  OnUpdateSort()
+BOOL  PreTranslateMessage()
+int  ~CClassView()
+}
+class CClassViewMenuButton{
+int  CClassViewMenuButton()
+virtual void  OnDraw()
+}
+class CCommClient{
+m_clientSock : SOCKET 
+m_getData : CStringList 
++m_nID : int 
++m_pThread : CWinThread * 
+m_view : CRobotModelingSimulationView * 
++m_wsa : WSADATA 
+int  CCommClient()
+void  ClearSocket()
+BOOL  ConnectServer()
+BOOL  CreateSocket()
+UINT  ReciveData()
+void  ReciveStart()
+int  recvn()
+int  ~CCommClient()
+}
+class CComunicationModule{
+int  CComunicationModule()
+float  GetRoboCAR_EncoderLeft_end()
+void  GetRoboCAR_EncoderLeft_start()
+float  GetRoboCAR_EncoderRight_end()
+void  GetRoboCAR_EncoderRight_start()
+BYTE  GetRoboCAR_IR()
+BYTE  GetRoboCAR_PSD()
+void  GetRoboCAR_SensorsNew()
+INTXY  GetRoboCAR_Tilt()
+BYTE  GetRoboCAR_UltraFrontLeft()
+BYTE  GetRoboCAR_UltraFrontRight()
+BYTE  GetRoboCAR_UltraRear()
+UINT  PasingSerail()
+void  SendRoboCAR_Buzzer()
+void  SendRoboCAR_LEDFront()
+void  SendRoboCAR_LEDRear()
+void  SendRoboCAR_Motor()
+MOTOR_STATUS  SendRoboCAR_MotorNew()
+int  ~CComunicationModule()
+}
+class CControlAIModelDlg{
+-m_Bitmap : CBitmap 
+-m_hNetwork : CHopfieldNetwork 
+-m_listPosition : POSITION 
+-m_memorySize : int 
+-m_pMemory : int * 
+-m_robotPosition : CPoint 
+-m_rtCtrlSize : CRect 
+-m_screenHeight : int 
+-m_screenWidth : int 
+-m_scrollHelper : CScrollHelper * 
+-m_wndToolBar : CToolBar 
+void  AddPos()
+int  CControlAIModelDlg()
+void  CompleteInput()
+void  CurrentMemoryInput()
+void  DoDataExchange()
+void  DrawBackground()
+BOOL  GetMovePlan()
+void  InitMemory()
+void  InitToolbar()
+void  MemoryLeft()
+void  MemoryRecall()
+void  MemoryRight()
+BOOL  OnEraseBkgnd()
+void  OnHScroll()
+BOOL  OnInitDialog()
+void  OnLButtonDown()
+BOOL  OnMouseWheel()
+void  OnPaint()
+void  OnRButtonDown()
+void  OnSize()
+void  OnVScroll()
+void  RemPos()
+int  ~CControlAIModelDlg()
+}
+class CCreateObjectDlg{
++m_colorBlue : int 
++m_colorGreen : int 
++m_colorRed : int 
++m_name : CString 
++m_posX : float 
++m_posY : float 
++m_posZ : float 
++m_rotX : int 
++m_rotY : int 
++m_rotZ : int 
++m_sideX : float 
++m_sideY : float 
++m_sideZ : float 
++m_viewColor : CStatic 
++m_weight : float 
+int  CCreateObjectDlg()
+void  ChangeColor()
+void  DoDataExchange()
+void  InitializeData()
+void  OnEnKillfocusBlue()
+void  OnEnKillfocusGreen()
+void  OnEnKillfocusRed()
+BOOL  OnInitDialog()
+void  OnPaint()
+void  OnSetFocus()
+void  OnStnClickedOdeColor()
+int  ~CCreateObjectDlg()
+}
+class CData{
++m_nCode : int 
++m_nCommand : int 
++m_nUserNum : int 
++m_strData : CString 
+int  CData()
+void  Serialize()
+int  ~CData()
+}
+class CFileView{
++m_FileViewImages : CImageList 
++m_wndFileView : CViewTree 
++m_wndToolBar : CFileViewToolBar 
+void  AdjustLayout()
+int  CFileView()
+BOOL  CheckCreateModel()
+void  FillFileView()
+void  OnChangeVisualStyle()
+void  OnContextMenu()
+int  OnCreate()
+void  OnDummyCompile()
+void  OnEditClear()
+void  OnEditCopy()
+void  OnEditCut()
+void  OnFileOpen()
+void  OnFileOpenWith()
+void  OnIdrCreatefixedjoint()
+void  OnIdrCreatemotor()
+void  OnIdrCreaterobocarbody()
+void  OnIdrCreaterobocarvision()
+void  OnIdrCreaterobocarwheel()
+void  OnIdrCreateultrasonicsensor()
+void  OnIdrDelete()
+void  OnIdrMappingjoint()
+void  OnIdrSetupmotor()
+void  OnModelCylinder()
+void  OnModelRectangle()
+void  OnModelSphere()
+void  OnPaint()
+void  OnProperties()
+void  OnSetFocus()
+void  OnSize()
+void  RecurrentDelete()
+void  RecurrentRead()
+void  StartTreeRead()
+int  ~CFileView()
+}
+class CFileViewToolBar{
+virtual BOOL  AllowShowOnList()
+virtual void  OnUpdateCmdUI()
+}
+class CGUID{
+-m_gID : GUID 
+int  CGUID()
+BOOL  CompareGUID()
+void  CreateGUID()
+GUID  GetGUID()
+CString  GetGUIDToString()
+CString  GetGUIDToString()
+void  SetGUID()
+void  SetGUIDStringToID()
+int  ~CGUID()
+}
+class CHopfieldNetwork{
+#m_matrixList : CPtrList 
+#m_memoryMatrix : MATRIX 
+int  CHopfieldNetwork()
+void  CompleteInput()
+void  CreateMemoryMatrix()
+void  FindVector()
+CPtrList *  GetMatrixList()
+void  InitMatrix()
+int  InitSig()
+void  InitializeMatrix()
+void  InputVector()
+void  MultiplexMatrix()
+void  PrintMatrixList()
+void  ReleaseMatrix()
+void  SumMatrix()
+void  TransposedMatrix()
+int  ~CHopfieldNetwork()
+}
+class CJointSetDlg{
++m_strName : CString 
+int  CJointSetDlg()
+void  DoDataExchange()
+int  ~CJointSetDlg()
+}
+class CLineNumberStatic{
+-m_bgcol : COLORREF 
+-m_bottomline : int 
+-m_fgcol : COLORREF 
+-m_format : CString 
+-m_topline : int 
+-m_topmargin : int 
+int  CLineNumberStatic()
+BOOL  OnEraseBkgnd()
+void  OnLButtonDown()
+void  OnPaint()
+void  SetBgColor()
+void  SetFgColor()
+void  SetLineNumberFormat()
+void  SetTopAndBottom()
+void  SetTopMargin()
+int  ~CLineNumberStatic()
+}
+class CMFCToolBarEx{
++m_ctrlCombo : CComboBox 
+BOOL  AddCombo()
+int  CMFCToolBarEx()
+int  ~CMFCToolBarEx()
+}
+class CMainFrame{
++m_AIModelDlg : CControlAIModelDlg 
+#m_UserImages : CMFCToolBarImages 
+#m_analyzeDlg : CSensorAnalyzer 
+#m_analyzerDlgShowChecker : BOOL 
++m_bComPort : BOOL 
++m_bControlAIModel : BOOL 
+#m_bCreateOK : BOOL 
++m_cameraDlg : CCameraViewerDlg 
++m_cameraDlgShowChecker : BOOL 
++m_cs : CCriticalSection 
++m_editView : CRobotModelingEditView * 
+#m_font : CFont 
++m_robotProtocal : ROBOT_PROTOCAL 
++m_serial : CSerialCtrl 
++m_threadControl : BOOL 
++m_view : CRobotModelingSimulationView * 
+#m_wndFileView : CFileView 
+#m_wndMenuBar : CMFCMenuBar 
+#m_wndModelingToolBar : CMFCToolBar 
++m_wndOutput : COutputWnd 
+#m_wndProperties : CPropertiesWnd 
+#m_wndReBar : CMFCReBar 
+#m_wndStatusBar : CMFCStatusBar 
+#m_wndToolBar : CMFCToolBar 
+#m_wndToolBarSerail : CMFCToolBarEx 
+void  AssertValid()
+int  CMainFrame()
+void  CloseMainSerialConnect()
+BOOL  CreateDockingWindows()
+void  DeleteTreeAllItem()
+void  DeleteTreeModel()
+void  DisableComPort()
+void  Dump()
+void  EnableComPort()
+CFileView *  GetFileView()
+int  GetPortNum()
+CPropertiesWnd *  GetPropertyWnd()
+CViewTree *  GetTreeView()
+void  InitRobotProtocal()
+HTREEITEM  InsertTreeModel()
+BOOL  LoadFrame()
+int  OnCreate()
+void  OnFileGeneratec()
+void  OnSettingChange()
+void  OnTimer()
+void  OnToolSeralConn()
+LRESULT  OnToolbarCreateNew()
+void  OnToolsAddmemory()
+void  OnToolsCompeletememory()
+void  OnToolsControlAiModel()
+void  OnToolsInit()
+void  OnToolsLeftmemory()
+void  OnToolsRecallmemory()
+void  OnToolsRightmemory()
+void  OnToolsSensoranalyzer()
+void  OnToolsVisionviewer()
+void  OnUpdateToolSeralConn()
+void  OnUpdateToolsControlAiModel()
+void  OnUpdateToolsSensoranalyzer()
+void  OnUpdateToolsVisionviewer()
+void  OnViewCustomize()
+void  OnWindowManager()
+UINT  PasingSerail()
+UINT  PasingSerailNew()
+BOOL  PreCreateWindow()
+void  SendRoboCAR_Buzzer()
+void  SendRoboCAR_LEDFront()
+void  SendRoboCAR_LEDRear()
+void  SendRoboCAR_Motor()
+void  SetDockingWindowIcons()
+void  SetTreeModelName()
+void  StartTreeRead()
+void  StatusShowPoint()
+CControlAIModelDlg  getAIModelDlg()
+ROBOT_PROTOCAL  getProtocol()
+COutputWnd  getWndOutput()
+void  setEditView()
+void  setView()
+int  ~CMainFrame()
+}
+class CODEEngine{
++m_bThreadRun : BOOL 
++m_contactgroup : dJointGroupID 
+-m_fn : dsFunctions 
++m_ground : dGeomID 
+-m_height : int 
++m_space : dSpaceID 
++m_view : CRobotModelingSimulationView * 
+-m_width : int 
++m_world : dWorldID 
+int  CODEEngine()
+void  DestroyODE()
+void  DrawFrame()
+void  FindObjectID()
+void  InitOdeEngin()
+void  ReSize()
+void  SimLoop()
+void  Start()
+void  StartGraphics()
+void  Stop()
+void  StopGraphics()
+void  field2RobotPos()
+void  nearCallback()
+int  vision()
+int  vision()
+int  ~CODEEngine()
+}
+class COdeControlBoxDlg{
+#m_listEdit : CObList 
+#m_listJointList : CObList 
+#m_listSliderControl : CObList 
+#m_listStaticList : CObList 
+#m_nBarPos : int 
+#m_nMax : int 
++m_view : CRobotModelingSimulationView * 
+int  COdeControlBoxDlg()
+void  CreateSlider()
+void  DoDataExchange()
+void  InitJointControl()
+void  OnHScroll()
+BOOL  OnInitDialog()
+BOOL  OnNotify()
+void  OnVScroll()
+void  SliderControlUpdate()
+int  ~COdeControlBoxDlg()
+}
+class COdeCylinder{
+int  COdeCylinder()
+void  Create()
+void  Draw()
+int  ~COdeCylinder()
+}
+class COdeJointFixed{
+int  COdeJointFixed()
+void  Create()
+void  Draw()
+void  MappingObject()
+int  ~COdeJointFixed()
+}
+class COdeJointHinge{
+int  COdeJointHinge()
+void  Create()
+void  Draw()
+void  MappingObject()
+int  ~COdeJointHinge()
+}
+class COdeJointObject{
++m_guid : CGUID 
+#m_hParentTreeItem : HTREEITEM 
+#m_hTreeItem : HTREEITEM 
+#m_joint : dJointID 
+#m_name : CString 
+#m_pODEEndObject : COdeObject * 
+#m_pODEStartObject : COdeObject * 
+#m_uType : UINT 
+int  COdeJointObject()
+void  DeleteObject()
+dJointID  GetJoint()
+CString  GetName()
+COdeObject *  GetODEEndObject()
+COdeObject *  GetODEStartObject()
+HTREEITEM  GetParentTreeItem()
+HTREEITEM  GetTreeItem()
+UINT  GetType()
+void  MovePosition()
+void  SetJoint()
+void  SetName()
+void  SetODEEndObject()
+void  SetODEStartObject()
+void  SetParentTreeItem()
+void  SetTreeItem()
+void  SetType()
+int  ~COdeJointObject()
+}
+class COdeObject{
++bTracking : BOOL [] 
++distance : dReal [] 
+#m_bSelected : BOOL 
+-m_body : dBodyID 
+-m_color : dReal [] 
+-m_colorRGB : int [] 
+-m_geom : dGeomID 
++m_guid : CGUID 
+-m_hParentTreeItem : HTREEITEM 
+-m_hTreeItem : HTREEITEM 
+-m_mass : dMass 
+-m_name : CString 
+-m_roatation : int [] 
+-m_side : dReal [] 
+-m_uType : UINT 
++m_view : CRobotModelingSimulationView * 
+-m_weight : dReal 
++theta : dReal [] 
+int  COdeObject()
+void  DeleteObject()
+void  DisSelect()
+void  DrawSelctBox()
+dBodyID  GetBody()
+const dReal *  GetColor()
+dGeomID  GetGeom()
+dMass  GetMass()
+CString  GetName()
+HTREEITEM  GetParentTreeItem()
+int *  GetRGBColor()
+int *  GetRotation()
+const dReal *  GetSide()
+HTREEITEM  GetTreeItem()
+UINT  GetType()
+dReal  GetWeight()
+void  MovePosition()
+void  Select()
+void  SetBody()
+void  SetColor()
+void  SetGeom()
+void  SetMass()
+void  SetName()
+void  SetParentTreeItem()
+void  SetRotation()
+void  SetSide()
+void  SetTreeItem()
+void  SetType()
+void  SetWeight()
+void  setCurrentTransform()
+int  ~COdeObject()
+}
+class COdeRectangle{
+int  COdeRectangle()
+void  Create()
+void  Draw()
+int  ~COdeRectangle()
+}
+class COdeRoboCarBody{
+#last_matrix_index : int 
+#m_camera : CVirtualCamera * 
+#m_cameraBody : dBodyID 
+#m_cameraGeo : dGeomID 
++m_directionX : int 
++m_directionY : int 
++m_infrared_rays : int 
+#m_meshCount : int 
+#m_modelListNum : GLint 
+#m_modelListNumCheck : BOOL 
+#m_oldPos : dReal [] 
+#m_pTrimesh : MyTrimesh * 
+#m_rayDistance : float [] 
+#m_rayGeoID : dGeomID [] 
+#m_rayID : dBodyID [] 
+#matrix_dblbuff : dReal [] 
+int  COdeRoboCarBody()
+void  Create()
+void  Draw()
+void  GetAABB()
+CVirtualCamera *  GetCamera()
+dBodyID  GetCameraBody()
+float *  GetRayDistance()
+void  InitDraw()
+void  ResetCameraData()
+void  ResetSensorData()
+bool  SetSensorData()
+int  ~COdeRoboCarBody()
+}
+class COdeRoboCarTrafficNetwork{
+-m_signal_code : COdeSignalCode [] 
+int  COdeRoboCarTrafficNetwork()
+void  Create()
+void  Draw()
+void  MovePosition()
+int  ~COdeRoboCarTrafficNetwork()
+}
+class COdeRoboCarVision{
+-m_camera : CVirtualCamera * 
+-m_cameraBody : dBodyID 
+-m_cameraGeo : dGeomID 
+-m_fixedJoint : dJointID 
+-m_joint : dJointID [] 
+-m_meshCount : int [] 
+-m_modelListNum : GLint [] 
+-m_modelListNumCheck : BOOL 
+-m_pTrimesh : MyTrimesh *[] 
+-m_visionGeoID : dGeomID [] 
+-m_visionID : dBodyID [] 
+int  COdeRoboCarVision()
+void  ControlVisionBody()
+void  ControlVisionHead()
+void  Create()
+void  Draw()
+void  GetAABB()
+CVirtualCamera *  GetCamera()
+void  InitDraw()
+void  MovePosition()
+void  ResetSensorData()
+void  SetJointHingePostion()
+int  ~COdeRoboCarVision()
+}
+class COdeRoboCarWheel{
+#last_matrix_index : int 
+#m_meshCount : int 
+#m_modelListNum : GLint 
+#m_modelListNumCheck : BOOL 
+#m_pTrimesh : MyTrimesh * 
+#matrix_dblbuff : dReal [] 
+int  COdeRoboCarWheel()
+void  Create()
+void  Draw()
+void  GetAABB()
+void  InitDraw()
+int  ~COdeRoboCarWheel()
+}
+class COdeSignalCode{
+-m_meshCount : int [] 
+-m_modelListNum : GLint [] 
+-m_modelListNumCheck : BOOL 
+-m_n1 : int 
+-m_n2 : int 
+-m_n3 : int 
+-m_n4 : int 
+-m_num : int 
+-m_pTrimesh : MyTrimesh *[] 
+m_signalCount : int 
+-m_signal_onoff : BOOL [] 
+-m_traffinNetworkGeoID : dGeomID [] 
+-m_traffinNetworkID : dBodyID [] 
+-time_count : int 
+-time_max : int 
+int  COdeSignalCode()
+void  Create()
+void  Draw()
+void  GetAABB()
+void  InitDraw()
+void  MovePosition()
+void  SetSignalCode()
+int  getTimeCount()
+int  getTimeMax()
+void  rotateSignal()
+int  ~COdeSignalCode()
+}
+class COdeSphere{
+int  COdeSphere()
+void  Create()
+void  Draw()
+int  ~COdeSphere()
+}
+class COdeUltraSensor{
+int  COdeUltraSensor()
+void  Create()
+void  Draw()
+int  ~COdeUltraSensor()
+}
+class COutputList{
+int  COutputList()
+void  OnContextMenu()
+void  OnEditClear()
+void  OnEditCopy()
+void  OnViewOutput()
+int  ~COutputList()
+}
+class COutputWnd{
+#m_wndOutputBuild : COutputList 
+#m_wndTabs : CMFCTabCtrl 
+void  AddStringOutputBuild()
+void  AdjustHorzScroll()
+int  COutputWnd()
+void  ClearOutputBuild()
+void  FillBuildWindow()
+int  OnCreate()
+void  OnSize()
+void  UpdateFonts()
+int  ~COutputWnd()
+}
+class CPropertiesToolBar{
+virtual BOOL  AllowShowOnList()
+virtual void  OnUpdateCmdUI()
+}
+class CPropertiesWnd{
+#m_fntPropList : CFont 
+-m_view : CRobotModelingSimulationView * 
+#m_wndObjectCombo : CComboBox 
+#m_wndPropList : CMFCPropertyGridCtrl 
+#m_wndToolBar : CPropertiesToolBar 
+void  AdjustLayout()
+int  CPropertiesWnd()
+COdeObject *  GetODEObject()
+CRobotModelingSimulationView *  GetSimulationView()
+void  InitPropList()
+void  InitPropertyData()
+int  OnCreate()
+void  OnExpandAllProperties()
+void  OnProperties1()
+void  OnProperties2()
+LRESULT  OnPropertyChanged()
+void  OnSetFocus()
+void  OnSettingChange()
+void  OnSize()
+void  OnSortProperties()
+void  OnUpdateExpandAllProperties()
+void  OnUpdateProperties1()
+void  OnUpdateProperties2()
+void  OnUpdateSortProperties()
+void  SetODEObjectData()
+void  SetPropListFont()
+void  SetPropertyData()
+void  SetSimulationView()
+void  SetVSDotNetLook()
+int  ~CPropertiesWnd()
+}
+class CQueue{
++buff : BYTE [] 
++m_iHead : int 
++m_iTail : int 
+int  CQueue()
+void  Clear()
+BOOL  GetByte()
+int  GetSize()
+BOOL  PutByte()
+int  ~CQueue()
+}
+class CRobotModelingEditDoc{
++m_view : CRobotModelingEditView * 
+void  AssertValid()
+int  CRobotModelingEditDoc()
+void  Dump()
+BOOL  OnNewDocument()
+BOOL  OnOpenDocument()
+BOOL  OnSaveDocument()
+void  Serialize()
+int  ~CRobotModelingEditDoc()
+}
+class CRobotModelingEditView{
++m_edit : CAutocomplectionCtrl 
+-m_font : CFont 
++m_mainFrame : CMainFrame * 
+-m_nLine : int 
+void  AssertValid()
+int  CRobotModelingEditView()
+void  Dump()
+inline CRobotModelingEditDoc *  GetDocument()
+CRobotModelingEditDoc *  GetDocument()
+void  InitEditView()
+void  OnContextMenu()
+int  OnCreate()
+void  OnDraw()
+void  OnEditCopy()
+void  OnEditCut()
+void  OnEditPaste()
+void  OnEditUndo()
+void  OnInitialUpdate()
+void  OnSize()
+void  OnToolsScriptStart()
+void  OnWindowNew()
+BOOL  PreCreateWindow()
+void  UpdateNumberLabel()
+int  ~CRobotModelingEditView()
+}
+class CRobotModelingSimulationApp{
++m_bHiColorIcons : BOOL 
+-m_bSplashLogoCheck : BOOL 
+-m_bStartNewFile : BOOL 
++m_server : COleTemplateServer 
+-pSLogo : CSplashLogo * 
+-theApp : CRobotModelingSimulationApp * 
+int  CRobotModelingSimulationApp()
+int  ExitInstance()
+BOOL  InitInstance()
+void  InitSimulator()
+void  LoadCustomState()
+void  OnAppAbout()
+void  OnFileNew()
+void  OnFileOpen()
+CDocument *  OpenDocumentFile()
+void  PreLoadState()
+void  SaveCustomState()
+}
+class CRobotModelingSimulationDoc{
+-m_idToMapping : CMapStringToString 
+void  AssertValid()
+int  CRobotModelingSimulationDoc()
+HTREEITEM  DocJointMappingProcess()
+HTREEITEM  DocOpenProcess()
+CXmlNode  DocSaveProcess()
+void  Dump()
+COdeJointObject *  FindODEJointObject()
+COdeObject *  FindODEObject()
+CRobotModelingSimulationView *  GetView()
+void  InitializeSearchContent()
+void  OnDrawThumbnail()
+BOOL  OnNewDocument()
+BOOL  OnOpenDocument()
+BOOL  OnSaveDocument()
+void  RecurrentJointMappingRead()
+void  RecurrentRead()
+void  Serialize()
+void  SetSearchContent()
+void  StartJointMappingRead()
+void  StartTreeRead()
+int  ~CRobotModelingSimulationDoc()
+}
+class CRobotModelingSimulationView{
+-m_FontBase : GLuint 
++m_bControlSignalCode : BOOL 
++m_bDrawJointLine : BOOL 
++m_bSensorEmulation : BOOL 
++m_bSimLoop : BOOL 
++m_bThreadRun : BOOL 
+-m_button : int 
++m_cs : CCriticalSection 
++m_drawFrameMode : int 
+#m_hThread : HANDLE 
++m_height : int 
++m_lButtonDown : BOOL 
+-m_lMouseDownXYZ : float [] 
+-m_lastx : int 
+-m_lasty : int 
++m_mainFrame : CMainFrame * 
++m_meshCount : int [] 
++m_mouseMove : BOOL 
++m_nServerCount : UINT 
+-m_networkRobotScript : CRobotScript [] 
++m_networkScriptList : CStringList 
+-m_oldPos : float [] 
+#m_pControlBoxdlg : COdeControlBoxDlg * 
++m_pGLView : CGLView * 
++m_pODE : CODEEngine * 
++m_pServer : CServer [] 
++m_pTrimesh : MyTrimesh *[] 
+-m_robotScript : CRobotScript 
++m_selectObjectNum : int 
++m_selectedObjectNum : int 
+-m_selectionID : UINT 
+-m_shadows : int 
+-m_startID : int 
+-m_startScriptID : int 
+-m_tex : int 
++m_width : int 
+void  AssertValid()
+int  CRobotModelingSimulationView()
+void  CreateCommandList()
+void  CreateJoint()
+void  CreateObject()
+void  DeleteCommandList()
+void  Dump()
+BOOL  ExistJointName()
+void  FindObjectID()
+COdeObject *  FindOdeObject()
+inline CRobotModelingSimulationDoc *  GetDocument()
+CRobotModelingSimulationDoc *  GetDocument()
+void  GetRobotDistanceInfo()
+void  InitJointControl()
+void  InitView()
+void  JointCommand()
+void  JointControlCommand()
+void  MemoryAddPosition()
+void  MemoryPatrol()
+void  NetworkScritRun()
+void  ObjectMoveRecurrentRead()
+void  ObjectMoveStartTreeRead()
+void  OnBeginPrinting()
+int  OnCreate()
+void  OnDeleteObject()
+void  OnDestroy()
+void  OnDraw()
+void  OnEndPrinting()
+BOOL  OnEraseBkgnd()
+void  OnFilePrintPreview()
+void  OnInitialUpdate()
+void  OnJointFixed()
+void  OnJointHinge()
+BOOL  OnJointMapping()
+void  OnJointSetup()
+void  OnKeyDown()
+void  OnLButtonDown()
+void  OnLButtonUp()
+void  OnMButtonDown()
+void  OnMButtonUp()
+void  OnModelCylinder()
+void  OnModelRectangle()
+void  OnModelRoboCarBody()
+void  OnModelRoboCarVision()
+void  OnModelRoboCarWheel()
+void  OnModelSphere()
+void  OnModelUltraSensor()
+void  OnModelingCylinder()
+void  OnModelingFrontrear()
+void  OnModelingRectangle()
+void  OnModelingRotation()
+void  OnModelingSelection()
+void  OnModelingSignalcode()
+void  OnModelingSphere()
+void  OnModelingTopdown()
+void  OnModelingTrafficnetwork()
+void  OnModelingUltrasensor()
+void  OnMouseMove()
+BOOL  OnMouseWheel()
+void  OnNetworkServercreation()
+void  OnNetworkSimulationserverconnection()
+BOOL  OnPreparePrinting()
+void  OnRButtonDown()
+void  OnRButtonUp()
+void  OnSize()
+void  OnTimer()
+void  OnToolsControlSignal()
+void  OnToolsControlbox()
+void  OnToolsEnd()
+void  OnToolsPause()
+void  OnToolsScriptStart()
+void  OnToolsSensoremulation()
+void  OnToolsStart()
+void  OnUpdateModelingCylinder()
+void  OnUpdateModelingFrontrear()
+void  OnUpdateModelingRectangle()
+void  OnUpdateModelingRotation()
+void  OnUpdateModelingSelection()
+void  OnUpdateModelingSignalcode()
+void  OnUpdateModelingSphere()
+void  OnUpdateModelingTopdown()
+void  OnUpdateModelingTrafficnetwork()
+void  OnUpdateModelingUltrasensor()
+void  OnUpdateToolsControlSignal()
+void  OnUpdateToolsEnd()
+void  OnUpdateToolsPause()
+void  OnUpdateToolsScriptStart()
+void  OnUpdateToolsSensoremulation()
+void  OnUpdateToolsStart()
+void  OnUpdateViewDrawjointline()
+void  OnUpdateViewShadows()
+void  OnUpdateViewTextures()
+void  OnUpdateViewWireframe()
+void  OnViewDrawjointline()
+void  OnViewInitcamera()
+void  OnViewShadows()
+void  OnViewTextures()
+void  OnViewWireframe()
+void  OnWindowNew()
+BOOL  PreCreateWindow()
+void  StatusShowPoint()
+void  UpdateProperty()
+void  VisionBodyCommand()
+void  VisionHeadCommand()
+WINAPI  renderingThread()
+int  ~CRobotModelingSimulationView()
+}
+class CRobotScript{
+-m_commandIndex : int 
+-m_commandList : CStringList 
+-m_internalIndex : int 
+-m_listVariable : CPtrList 
+-m_timerID : UINT 
+-m_timerSubID : UINT 
+-m_variableMap : CMapStringToString 
+-m_view : CRobotModelingSimulationView * 
+int  CRobotScript()
+CString  ChangeIfCommand()
+CString  ChangeVariableName()
+void  ClearVarMap()
+void  CommandPaser()
+void  CreateCommandList()
+void  DelayCommand()
+void  DeleteCommandList()
+CString  ExchangeRobotScript()
+BOOL  FindExistStringListAdd()
+int  FindLabelLineNumber()
+Variable *  GetExistVariable()
+float  GetGlobalVariable()
+float  GetVariable()
+float  GetVariableFloatValue()
+BOOL  IfCommand()
+BOOL  IsNumeric()
+void  LoopCommand()
+BOOL  NewVariable()
+void  OnTimer()
+void  ScriptTimerStart()
+void  ScriptTimerStop()
+int  StringFindCount()
+void  VarKeySeperator()
+int  ~CRobotScript()
+}
+class CScrollHelper{
+-m_attachWnd : CWnd * 
+-m_displaySize : CSize 
+-m_pageSize : CSize 
++m_scrollPos : CSize 
+void  AttachWnd()
+int  CScrollHelper()
+void  DetachWnd()
+int  Get32BitScrollPos()
+const CSize &  GetDisplaySize()
+const CSize &  GetPageSize()
+const CSize &  GetScrollPos()
+void  OnHScroll()
+BOOL  OnMouseWheel()
+void  OnSize()
+void  OnVScroll()
+void  ScrollToOrigin()
+void  SetDisplaySize()
+void  UpdateScrollBar()
+void  UpdateScrollInfo()
+int  ~CScrollHelper()
+}
+class CSensorAnalyzer{
+-graph_wnd : CGraphWnd 
+-m_checkboxAllChecker : BOOL 
+-m_current_time : long 
+-m_dyn_graph_id : long [] 
+-m_graph_count : long 
+-m_initDialogCheck : BOOL 
+-m_timerChecker : BOOL 
+int  CSensorAnalyzer()
+void  DoDataExchange()
+void  DynamicDrawPoint()
+void  OnBnClickedBtnAnalyzerAllcheck()
+void  OnBnClickedBtnAnalyzerStart()
+void  OnBnClickedCheckEncoderL()
+void  OnBnClickedCheckEncoderR()
+void  OnBnClickedCheckIr()
+void  OnBnClickedCheckPsd()
+void  OnBnClickedCheckTiltX()
+void  OnBnClickedCheckTiltY()
+void  OnBnClickedCheckUltraFl()
+void  OnBnClickedCheckUltraFr()
+void  OnBnClickedCheckUltraRear()
+void  OnBnClickedClearGraphe()
+void  OnClose()
+BOOL  OnInitDialog()
+void  OnSize()
+void  OnTimer()
+BOOL  PreTranslateMessage()
+void  ShowGraphe()
+int  ~CSensorAnalyzer()
+}
+class CSerialCtrl{
++m_QueueRead : CQueue 
++m_bConnected : BOOL 
++m_hComm : HANDLE 
++m_hThreadWatchComm : HANDLE 
++m_osRead : OVERLAPPED 
++m_osWrite : OVERLAPPED 
+int  CSerialCtrl()
+void  CloseConnect()
+BOOL  ConnectPort()
+BOOL  ConnectPortCheck()
+BOOL  ReadABuffer()
+DWORD  ThreadWatchComm()
+BOOL  WriteABuffer()
+int  ~CSerialCtrl()
+}
+class CServer{
++m_pWnd : CWnd * 
++m_view : CRobotModelingSimulationView * 
+int  CServer()
+void  Init()
+void  OnAccept()
+void  OnClose()
+void  OnConnect()
+void  OnReceive()
+void  SendUser()
+int  ~CServer()
+}
+class CServerCreationDlg{
++m_dwIPAddress : DWORD 
++m_nPort : int 
+int  CServerCreationDlg()
+void  DoDataExchange()
+int  ~CServerCreationDlg()
+}
+class CSignalCodeDlg{
++m_gree : CString [] 
++m_greeArrow : CString [] 
++m_red : CString [] 
++m_view : CRobotModelingSimulationView * 
++m_yellow : CString [] 
+int  CSignalCodeDlg()
+void  DoDataExchange()
+void  OnBnClickedOk()
+BOOL  OnInitDialog()
+int  ~CSignalCodeDlg()
+}
+class CSimulationServerConn{
++m_charIP : char [] 
++m_nPort : int 
++m_serverIP : CIPAddressCtrl 
+int  CSimulationServerConn()
+void  DoDataExchange()
+void  OnBnClickedOk()
+BOOL  OnInitDialog()
+int  ~CSimulationServerConn()
+}
+class CSplashLogo{
+int  CSplashLogo()
+void  DoDataExchange()
+BOOL  OnInitDialog()
+void  OnTimer()
+BOOL  PreTranslateMessage()
+int  ~CSplashLogo()
+}
+class CViewTree{
+int  CViewTree()
+void  OnLButtonDblClk()
+void  OnNMDblclk()
+BOOL  OnNotify()
+int  ~CViewTree()
+}
+class CVirtualCamera{
+-m_bitmapInfo : BITMAPINFO 
+-m_fovAngle : double 
+-m_height : int 
+-m_image : BYTE * 
+-m_width : int 
+int  CVirtualCamera()
+void  Draw()
+void  DrawObjects()
+BITMAPINFO *  GetBitmapInfo()
+const BYTE *  GetImage()
+void  InitBitmapInfo()
+void  Rotate()
+int  ~CVirtualCamera()
+}
+class IRobotModelingSimulation{
+-lpVtbl : CONST_VTBLIRobotModelingSimulationVtbl * 
+}
+CDialogEx <|-- CAboutDlg
+CRichEditCtrl <|-- CAutocomplectionCtrl
+CDialogEx <|-- CCameraViewerDlg
+CMDIChildWndEx <|-- CChildFrame
+CMFCToolBar <|-- CClassToolBar
+CDockablePane <|-- CClassView
+CMFCToolBarMenuButton <|-- CClassViewMenuButton
+CObject <|-- CCommClient
+CDialog <|-- CControlAIModelDlg
+CDialogEx <|-- CCreateObjectDlg
+CObject <|-- CData
+CDockablePane <|-- CFileView
+CMFCToolBar <|-- CFileViewToolBar
+CObject <|-- CHopfieldNetwork
+CDialogEx <|-- CJointSetDlg
+CStatic <|-- CLineNumberStatic
+CMFCToolBar <|-- CMFCToolBarEx
+CMDIFrameWndEx <|-- CMainFrame
+CDialogEx <|-- COdeControlBoxDlg
+COdeObject <|-- COdeCylinder
+COdeJointObject <|-- COdeJointFixed
+COdeJointObject <|-- COdeJointHinge
+CObject <|-- COdeJointObject
+CObject <|-- COdeObject
+COdeObject <|-- COdeRectangle
+COdeObject <|-- COdeRoboCarBody
+COdeObject <|-- COdeRoboCarTrafficNetwork
+COdeObject <|-- COdeRoboCarVision
+COdeObject <|-- COdeRoboCarWheel
+COdeObject <|-- COdeSignalCode
+COdeObject <|-- COdeSphere
+COdeObject <|-- COdeUltraSensor
+CListBox <|-- COutputList
+CDockablePane <|-- COutputWnd
+CMFCToolBar <|-- CPropertiesToolBar
+CDockablePane <|-- CPropertiesWnd
+CObject <|-- CQueue
+CDocument <|-- CRobotModelingEditDoc
+CView <|-- CRobotModelingEditView
+CWinAppEx <|-- CRobotModelingSimulationApp
+CDocument <|-- CRobotModelingSimulationDoc
+CView <|-- CRobotModelingSimulationView
+CObject <|-- CRobotScript
+CDialogEx <|-- CSensorAnalyzer
+CSocket <|-- CServer
+CDialogEx <|-- CServerCreationDlg
+CDialog <|-- CSignalCodeDlg
+CDialog <|-- CSimulationServerConn
+CDialogEx <|-- CSplashLogo
+CTreeCtrl <|-- CViewTree
+CCameraViewerDlg *-- COdeRoboCarVision
+CCameraViewerDlg *-- CVirtualCamera
+CClassView *-- CClassViewMenuButton
+CCommClient *-- CCommClient
+CCommClient *-- CRobotModelingSimulationView
+CComunicationModule *-- CMainFrame
+CControlAIModelDlg *-- CScrollHelper
+CMainFrame *-- CMainFrame
+CMainFrame *-- CRobotModelingEditView
+CMainFrame *-- CRobotModelingSimulationView
+CODEEngine *-- CODEEngine
+CODEEngine *-- COdeRoboCarBody
+COdeControlBoxDlg *-- COdeJointObject
+COdeCylinder *-- CRobotModelingSimulationView
+COdeJointFixed *-- COdeObject
+COdeJointHinge *-- COdeObject
+COdeJointObject *-- CMainFrame
+COdeJointObject *-- COdeObject
+COdeObject *-- CMainFrame
+COdeRectangle *-- CRobotModelingSimulationView
+COdeRoboCarBody *-- COdeRoboCarBody
+COdeRoboCarBody *-- CRobotModelingSimulationView
+COdeRoboCarBody *-- CVirtualCamera
+COdeRoboCarTrafficNetwork *-- CRobotModelingSimulationView
+COdeRoboCarVision *-- CRobotModelingSimulationView
+COdeRoboCarVision *-- CVirtualCamera
+COdeRoboCarWheel *-- CRobotModelingSimulationView
+COdeSignalCode *-- CRobotModelingSimulationView
+COdeSphere *-- CRobotModelingSimulationView
+COdeUltraSensor *-- CRobotModelingSimulationView
+CPropertiesWnd *-- COdeObject
+CPropertiesWnd *-- CRobotModelingSimulationView
+CRobotModelingEditView *-- CMainFrame
+CRobotModelingEditView *-- CRobotModelingEditDoc
+CRobotModelingSimulationApp *-- CAboutDlg
+CRobotModelingSimulationApp *-- CMainFrame
+CRobotModelingSimulationApp *-- CSplashLogo
+CRobotModelingSimulationDoc *-- CGUID
+CRobotModelingSimulationDoc *-- CMainFrame
+CRobotModelingSimulationDoc *-- COdeCylinder
+CRobotModelingSimulationDoc *-- COdeJointFixed
+CRobotModelingSimulationDoc *-- COdeJointHinge
+CRobotModelingSimulationDoc *-- COdeJointObject
+CRobotModelingSimulationDoc *-- COdeObject
+CRobotModelingSimulationDoc *-- COdeRectangle
+CRobotModelingSimulationDoc *-- COdeRoboCarBody
+CRobotModelingSimulationDoc *-- COdeRoboCarTrafficNetwork
+CRobotModelingSimulationDoc *-- COdeRoboCarVision
+CRobotModelingSimulationDoc *-- COdeRoboCarWheel
+CRobotModelingSimulationDoc *-- COdeSignalCode
+CRobotModelingSimulationDoc *-- COdeSphere
+CRobotModelingSimulationDoc *-- CRobotModelingSimulationView
+CRobotModelingSimulationView *-- CCommClient
+CRobotModelingSimulationView *-- CCreateObjectDlg
+CRobotModelingSimulationView *-- CMainFrame
+CRobotModelingSimulationView *-- CODEEngine
+CRobotModelingSimulationView *-- COdeControlBoxDlg
+CRobotModelingSimulationView *-- COdeCylinder
+CRobotModelingSimulationView *-- COdeJointFixed
+CRobotModelingSimulationView *-- COdeJointHinge
+CRobotModelingSimulationView *-- COdeJointObject
+CRobotModelingSimulationView *-- COdeObject
+CRobotModelingSimulationView *-- COdeRectangle
+CRobotModelingSimulationView *-- COdeRoboCarBody
+CRobotModelingSimulationView *-- COdeRoboCarTrafficNetwork
+CRobotModelingSimulationView *-- COdeRoboCarVision
+CRobotModelingSimulationView *-- COdeRoboCarWheel
+CRobotModelingSimulationView *-- COdeSignalCode
+CRobotModelingSimulationView *-- COdeSphere
+CRobotModelingSimulationView *-- COdeUltraSensor
+CRobotModelingSimulationView *-- CRobotModelingSimulationDoc
+CRobotModelingSimulationView *-- CRobotModelingSimulationView
+CRobotModelingSimulationView *-- CServerCreationDlg
+CRobotModelingSimulationView *-- CSignalCodeDlg
+CRobotModelingSimulationView *-- CSimulationServerConn
+CRobotModelingSimulationView *-- CViewTree
+CRobotScript *-- COdeObject
+CRobotScript *-- CRobotModelingSimulationView
+CSensorAnalyzer *-- CMainFrame
+CSerialCtrl *-- CSerialCtrl
+CServer *-- CMainFrame
+CViewTree *-- CMainFrame
+CViewTree *-- COdeObject
+CVirtualCamera *-- COdeObject
+CVirtualCamera *-- CRobotModelingSimulationView
+
+ @enduml
